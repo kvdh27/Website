@@ -1,0 +1,493 @@
+h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+img{
+display: block;
+margin: 0 auto;
+
+text-align: center;
+
+}
+
+
+
+
+a{
+text-align: center;
+color:black;
+text-decoration: none;
+font-weight: bold;
+
+
+}
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+p{font-size: 15px;
+}
+
+
+nav{background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+nav a{
+color: white;
+    text-decoration: none;
+
+
+}
+
+#homepagebanner {
+background-color: black;
+height: 50vh;
+color: white;
+background-image: url(../images/banner3.png);
+background-position: center;
+background-size: cover;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+main section{ 
+    display: flex;
+    justify-content: space-between;
+
+
+}
+img{
+    width: fit-content;
+    height: 450px;
+}
+
+
+/* nodig????? */
+.banner{
+background-color: aqua;
+color: white;
+height: 20vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-position: center;
+background-size: cover;
+
+
+}
+
+#banner1{ 
+    background-image: url(../images/new_arrivals.png);
+
+
+
+}
+
+#banner2{
+    background-image: url(../images/shirt_week.png);
+
+}
+
+footer{
+background-color:#333 ;
+color: white;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+
+}
+
+footer a{
+color: white;
+text-decoration: none;
+}
+
+
+.witruimte{
+width: 80%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.driekolom{
+width: 30%;
+padding: 20px;
+min-width: 300px;
+text-align: center;
+align-items: center;
+}
+
+.tweekolom{
+width: 45%;
+padding: 20px;
+min-width: 500px;
+text-align: center;
+align-items: center;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: left;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #555;
+}
+
+
+/*style2*/
+
+
+.product-page {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+/* Linkerkant (Afbeeldingen) */
+.product-gallery {
+    flex: 1;
+}
+
+.main-image {
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Rechterkant (Details) */
+.product-info {
+    font-family:sans-serif;
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+.product-price{
+    color: #E63946;
+    font-size: 1.8rem !important;
+    margin: 1rem 0;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.add-to-cart {
+    display: inline-block;
+    background-color: #f11726;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.add-to-cart:hover {
+    background-color: #f45151f9;
+}
+
+
+/*stylecontact*/
+#banner_overons {
+    height: 40vh; 
+    background-image: url(../images/overons.png);
+    background-size: cover; /* Ensures the background covers the space */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#contactbanner
+{
+    height: 40vh; 
+    background-image: url(../images/contact2.png);
+    background-size: cover; /* Ensures the background covers the space */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Zorg dat de afbeelding op volledige grootte verschijnt */
+.product-gallery img.main-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Pas dit aan als nodig */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Zorg voor goede afstand tussen tekstregels */ 
+.product-info p {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Consistent met andere tekstgroottes */
+}
+
+/* De titel duidelijker maken */
+.product-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Knop styling verbeteren */
+.add-to-cart {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #f11726;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #c9151f;
+}
+
+/* Maak de dropdown en tekst consistent */
+select {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Flexbox voor goede uitlijning */
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  h3:hover{
+    color:#c9151f;
+  }
+
+  {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slider-container {
+    width: fit-content;
+    max-width: 1000px;
+    height: fit-content;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Zorgt ervoor dat ze bovenaan uitlijnen */
+    gap: 10px; /* Ruimte tussen slider en tekst */
+}
+
+.slider-container {
+    flex: 0.7; /* Slider neemt evenredige ruimte in */
+}
+.text-container {
+    flex: 1; /* Tekst neemt evenredige ruimte in */
+    text-align: center; /* Tekst naar rechts uitlijnen */
+}
+.slider img {
+    max-width: 90%; /* Zorg dat de afbeelding niet buiten de container gaat */
+    height: fit-content;
+}

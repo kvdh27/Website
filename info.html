@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voetbalploegen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .team {
+            margin-bottom: 20px;
+        }
+        .team h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Voetbalploegen</h1>
+            <nav>
+                <ul>
+                    <li><a href="#liverpool">Liverpool</a></li>
+                    <li><a href="#barcelona">Barcelona</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="team" id="liverpool">
+                <h2>Liverpool</h2>
+                <p>Liverpool FC is een professionele voetbalclub uit Liverpool, Engeland. De club is opgericht in 1892 en speelt zijn thuiswedstrijden op Anfield.</p>
+            </div>
+            <div class="team" id="barcelona">
+                <h2>Barcelona</h2>
+                <p>FC Barcelona, ook wel bekend als Barça, is een professionele voetbalclub uit Barcelona, Spanje. De club is opgericht in 1899 en speelt zijn thuiswedstrijden in Camp Nou.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
