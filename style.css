@@ -52,7 +52,7 @@ color: white;
 background-color: black;
 height: 50vh;
 color: white;
-background-image: url(../images/banner3.png);
+background-image: url(banner3.png);
 background-position: center;
 background-size: cover;
 
@@ -93,14 +93,14 @@ background-size: cover;
 }
 
 #banner1{ 
-    background-image: url(../images/new_arrivals.png);
+    background-image: url(new_arrivals.png);
 
 
 
 }
 
 #banner2{
-    background-image: url(../images/shirt_week.png);
+    background-image: url(shirt_week.png);
 
 }
 
